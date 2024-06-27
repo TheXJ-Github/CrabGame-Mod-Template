@@ -1,7 +1,7 @@
 This Repo will help you create your first Crab Game Mod!
 
 # Setup
-Before anything else, you'll need BepInEx 6.0 for IL2CPP, as Crab Game is an IL2CPP game meaning it's obfuscated and its more annoying to mod. You'll also need Visual Studio
+Before anything else, you'll need BepInEx 6.0 for IL2CPP, as Crab Game is an IL2CPP game meaning it's obfuscated and its more annoying to mod. You'll also need Visual Studio to create your mod
 
 Download BepInEx 6.0 Preview [here](https://github.com/BepInEx/BepInEx/releases/v6.0.0-pre.1)
 
