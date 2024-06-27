@@ -110,7 +110,7 @@ namespace CrabGameMod
 ```
 
 # The Final Step: Building the DLL
-In the top middle area on your screen, it might say Debug. If it is Release, that's good! If it's Debug, then click on it and set it to Release.
+In the top middle area on your screen, it might say Debug, which you'll have to set to Release by clicking it and clicking Release. If it's already Release, then that's good!
 
 Now you can quickly build your mod by hitting Ctrl+B, or going to the Build tab and clicking Build. You'll find the mod dll in the folder of your project
 
