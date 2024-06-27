@@ -2,7 +2,7 @@ using BepInEx.IL2CPP.Utils;
 using HarmonyLib;
 using UnityEngine;
 
-// declarations like these avoid the use for these obfuscated values
+// declarations like these avoid the use of these obfuscated values
 // and make code easier to read!
 using EffectManager = MonoBehaviourPublicGataInefObInUnique;
 using LobbyManager = MonoBehaviourPublicCSDi2UIInstObUIloDiUnique;
