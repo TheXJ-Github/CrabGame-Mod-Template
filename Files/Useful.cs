@@ -1,5 +1,4 @@
-// useful stuff
-
+// useful stuff from Deobfuscation.cs
 
 // allows you to give weapons to players using GameServer.ForceGiveWeapon
 // also used for respawning players, particularlly GameServer.Instance.QueueRespawn and GameServer.PlayerSpawnRequest
@@ -23,3 +22,11 @@ using SteamManager = MonoBehaviourPublicObInUIgaStCSBoStcuCSUnique;
 // these two lines fix that, ensuring System.Random appears before UnityEngine.Random
 using Random = System.Random;
 using UnityRandom = UnityEngine.Random;
+
+// what AntiAntiBepinex uses to detect AntiBepinex
+// credits to o7moon, all from https://github.com/o7Moon/CrabGame.AntiAntiBepinex/blob/main/Plugin.vb
+using EffectManager = MonoBehaviourPublicGataInefObInUnique; // used to check for effect seed not being set to 4200069
+using LobbyManager = MonoBehaviourPublicCSDi2UIInstObUIloDiUnique; // already here, used to check if connectedToSteam is set to true
+using MenuSnowSpeedModdingDetector = MonoBehaviourPublicVesnUnique; // used to check if snow speed is modified, but it only flags if its set to Vector3.zero which it's never set to because it's immediately set to Vector3.one, thanks Dani
+using MenuUiCreateLobbySettings = MonoBehaviourPublicObjomaOblogaTMObseprUnique; // not sure what this one is used to check for, but it's present in the code
+using PlayerListCount = MonoBehaviourPublicTeplUnique; // also not sure what this one is used to check for, but is also present in the code
