@@ -119,7 +119,7 @@ To use your mod, copy it from your project, and paste it into **Bepinex\plugins*
 ### If you create a cheat menu, DON'T USE IT IN A WAY THAT GIVES YOU AN UNFAIR ADVANTAGE!! 
 **Plus hosts can kick & ban you**
 
-# Decompiling
+# The Unity Explorer
 (Just about everything you need is at Deobfuscation.cs in the repo)
 
 If you want to look at the game internally, you can get the [UnityExplorer mod](https://github.com/sinai-dev/UnityExplorer/releases/tag/4.5.5) (the IL2CPP BepInEx version), extract it, and paste the dll into *BepInEx/plugins** where you'd put your mod
