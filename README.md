@@ -15,7 +15,7 @@ Now, run Crab Game then close it. If you go back to the root folder and into the
 After this point, you'll need to use Visual Studio, and you'll need to create a new **Class Library (.NET Framework)** project
 <p align="center"><img src="Images/screenshot4.png"></p>
 
-Set the .NET Framework to anywhere up to 4.8, but 4.7.1 works best
+Set the .NET Framework to anywhere up to 4.8, but 4.7.2 works best
 <p align="center"><img src="Images/screenshot5.png"></p>
 
 Now, you're going to want to copy the 'core' and 'unhollowed' folders. Go to your project's folder, create a new folder called 'libs' and paste the two folders in there
@@ -24,6 +24,7 @@ Now, you're going to want to copy the 'core' and 'unhollowed' folders. Go to you
 
 After that, you'll need to add references. Go to the Explorer window in Visual Studio, and click Add References. Add all of the DLL's in the libs subfolders
 <p align="center"><img src="Images/screenshot8.png"></p>
+Before we get to coding, we need a NuGet package, Go to Project, then Manage NuGet Packages. Search for 'bepinex' and choose the BepInEx.Il2Cpp.TlsAdapter package and install it.
 
 # Let's start coding!
 Let's get to the fun part: Coding! The first step is to renaming Class1.cs to Plugin.cs
@@ -132,3 +133,6 @@ If you want to look at the game internally, you can get the [UnityExplorer mod](
 - https://github.com/Danilo1301/crab-game-mod
 - https://github.com/Lualttt/crabgame_template_plugin/blob/master/Plugin.cs
 - https://github.com/o7Moon/CrabGame.AntiAntiBepinex
+
+# Updates
+- (6/27/2024) I could not for the life of me get my project to compile using .NET Framework 4.7.1. I thought about what could be the issue, and apparently BepInEx.IL2CPP required a package indirectly, which was BepInEx.IL2CPP.TlsAdapter. It worked, but I had to change the .NET Framework to 4.7.2 (you can do this by editing the .csproj file)
